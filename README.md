@@ -12,8 +12,6 @@ Program ini merupakan **lanjutan dari TP4**.
 - Pada TP4, data produk masih disimpan di **ArrayList**.  
 - Pada TP5, program sudah menggunakan **database MySQL** sebagai penyimpanan utama.  
 
----
-
 ## Perubahan / Tambahan dari TP4  
 - CRUD langsung ke database (insert, update, delete, select).  
 - Validasi input kosong sebelum insert / update.  
@@ -38,8 +36,6 @@ Kelas ini berfungsi sebagai **model data produk**.
 - Constructor.  
 - Getter dan Setter untuk semua atribut.  
 
----
-
 ### 2. Database.java  
 Kelas ini bertugas **menghubungkan aplikasi dengan MySQL**.  
 
@@ -51,8 +47,6 @@ Kelas ini bertugas **menghubungkan aplikasi dengan MySQL**.
 - `Database()` → constructor, otomatis buka koneksi begitu objek dibuat.  
 - `selectQuery(String query)` → ambil data (SELECT), hasil berupa ResultSet.  
 - `insertUpdateDeleteQuery(String query)` → eksekusi query INSERT, UPDATE, DELETE.  
-
----
 
 ### 3. ProductMenu.java  
 Kelas ini adalah **GUI utama** (`extends JFrame`) untuk mengelola data produk.  
