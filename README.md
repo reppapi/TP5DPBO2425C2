@@ -67,7 +67,7 @@ TP5 menyempurnakan TP4 dengan cara:
 
 ## Dokumentasi
 
-Klik thumbnail di bawah untuk nonton demo program:  
+Klik thumbnail di bawah untuk menonton demo program:  
 
 [![Demo Program](https://img.youtube.com/vi/0YjALvHvVS8/0.jpg)](https://youtu.be/0YjALvHvVS8)
 
