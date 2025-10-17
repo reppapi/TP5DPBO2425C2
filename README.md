@@ -63,5 +63,12 @@ Untuk menghapus, pilih baris dan tekan **Delete**, konfirmasi Yes, maka data hil
 TP5 menyempurnakan TP4 dengan cara:  
 - Memindahkan penyimpanan data dari ArrayList ke MySQL.  
 - Menambahkan validasi input & validasi duplikasi ID.  
-- Struktur kelas tetap sama, namun CRUD sudah sepenuhnya terhubung ke database.  
+- Struktur kelas tetap sama, namun CRUD sudah sepenuhnya terhubung ke database. 
+
+## Dokumentasi
+
+Klik thumbnail di bawah untuk nonton demo program:  
+
+[![Demo Program](https://img.youtube.com/vi/0YjALvHvVS8/0.jpg)](https://youtu.be/0YjALvHvVS8)
+
 
