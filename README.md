@@ -1,11 +1,7 @@
 # TP5DPBO2425C2
 
-# 📝 Tugas Praktikum 5  
-
 ## Janji  
 Saya **Repa Pitriani** dengan NIM **2402499** mengerjakan Tugas Praktikum 5 dalam mata kuliah **Desain dan Pemrograman Berorientasi Objek** untuk keberkahanNya, maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.  
-
----
 
 ## Penjelasan Umum  
 Program ini merupakan **lanjutan dari TP4**.  
@@ -24,25 +20,21 @@ Program ini merupakan **lanjutan dari TP4**.
 
 ### 1. Product.java  
 Kelas ini berfungsi sebagai **model data produk**.  
-
 **Atribut:**  
 - `id : String` → ID unik produk.  
 - `nama : String` → nama produk.  
 - `harga : double` → harga produk.  
 - `kategori : String` → kategori produk (Elektronik, Makanan, Minuman, Pakaian, Alat Tulis).  
 - `garansi : String` → status garansi ("Ada" / "Tidak").  
-
 **Method:**  
 - Constructor.  
 - Getter dan Setter untuk semua atribut.  
 
 ### 2. Database.java  
 Kelas ini bertugas **menghubungkan aplikasi dengan MySQL**.  
-
 **Atribut:**  
 - `connection` → objek untuk membuka koneksi ke database.  
 - `statement` → objek untuk menjalankan query SQL.  
-
 **Method:**  
 - `Database()` → constructor, otomatis buka koneksi begitu objek dibuat.  
 - `selectQuery(String query)` → ambil data (SELECT), hasil berupa ResultSet.  
@@ -50,14 +42,12 @@ Kelas ini bertugas **menghubungkan aplikasi dengan MySQL**.
 
 ### 3. ProductMenu.java  
 Kelas ini adalah **GUI utama** (`extends JFrame`) untuk mengelola data produk.  
-
 **Komponen GUI:**  
 - JTable → menampilkan daftar produk dari database.  
 - JTextField → input ID, Nama, Harga.  
 - JComboBox → memilih kategori produk.  
 - JRadioButton → memilih status garansi.  
 - JButton → Add/Update, Delete, Cancel.  
-
 **Fitur Utama:**  
 - `insertData()` → tambah produk baru (dengan validasi kosong + validasi ID duplicate).  
 - `updateData()` → ubah produk yang dipilih, juga ada validasi ID duplicate jika ID diubah.  
@@ -68,8 +58,6 @@ Kelas ini adalah **GUI utama** (`extends JFrame`) untuk mengelola data produk.
 Program menampilkan data produk lewat tabel dengan kolom No, ID, Nama, Harga, Kategori, dan Garansi. Setiap perubahan data langsung diperbarui dengan `setTable()`.  
 Produk baru bisa ditambah lewat form input dan tombol **Add**, lalu data tersimpan dengan `insertData()` dan tabel otomatis ter-update. Kalau ingin mengubah data, cukup klik baris tabel, form terisi otomatis, tombol berubah jadi **Update**, lalu simpan dengan `updateData()`.  
 Untuk menghapus, pilih baris dan tekan **Delete**, konfirmasi Yes, maka data hilang melalui `deleteData()`. Sedangkan tombol **Cancel** dipakai untuk mengosongkan form dan mengembalikan tombol ke kondisi awal.  
-
----
 
 ## Kesimpulan  
 TP5 menyempurnakan TP4 dengan cara:  
